@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "MOTD",
+			"path": "."
+		},
+		{
+			"name": "ClyphX_Pro",
+			"path": "../ClyphX_Pro"
+		},
+		{
+			"name": "pixel",
+			"path": "../pixel"
+		}
+	],
+	"settings": {}
+}
