@@ -87,8 +87,9 @@
         }
 
         .cover { 
-            width: 240px;           /* Elle prend la moitié de la largeur du container */
-            height: 240px;          /* Même hauteur pour garder un carré parfait */
+            width: 50%;           /* Elle prend la moitié de la largeur du container */
+            max-width: 240px;     /* On met une limite pour qu'elle ne devienne pas géante sur iPad */
+            min-width: 150px;     /* On met une limite pour qu'elle ne soit pas minuscule sur petit téléphone */
             aspect-ratio: 1 / 1;  /* Force le carré parfait */
             border-radius: 12px; 
             margin-bottom: 25px; 
